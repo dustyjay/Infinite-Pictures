@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+.homepage {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image {
+    height: 25vh;
+    width: auto;
+    position: absolute;
+    cursor: pointer;
+    will-change: transform;
+    transition: all 1s;
+}
+
+.alt-text {
+    position: sticky;
+    bottom: 0;
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    z-index: 11;
+}
