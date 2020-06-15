@@ -1,3 +1,3 @@
 # Infinite Pictures
 
-## A simple set of pictures showing randomly on the page
+### A simple set of pictures showing randomly on the page
